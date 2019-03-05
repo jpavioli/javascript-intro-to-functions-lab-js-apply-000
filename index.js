@@ -1,13 +1,11 @@
 //recieve a [string] and return it in all caps
 function shout(string){
-  string.toUpperCase()
-  return string
+  return string.toUpperCase()
 }
 
 //recieve a [string] and return it in all lower case
 function whisper(string){
-  string.toLowerCase()
-  return string
+  return string.toLowerCase()
 }
 
 //recieve a [string] and output to consol log in all uppercase 
@@ -23,10 +21,10 @@ function logWhisper(string){
 //function sayHiToGrandma
 function sayHiToGrandma(string){
   if (string === 'I love you, Grandma'){
-    return 'I love you, too'
+    return 'I love you, too.'
   }
   else if (string === string.toLowerCase()){
-    return "I can't hear you"
+    return "I can't hear you!"
   }
   else if (string === string.toUpperCase()){
     return "YES INDEED!"
