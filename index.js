@@ -10,3 +10,7 @@ function whisper(string){
   return string
 }
 
+//recieve a [string] and output to consol log argument in all toUpperCase
+function logShout(string){
+  
+}
